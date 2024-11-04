@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Clicker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="gameScreen" class="screen">
+        <div id="score">Candies: 0</div>
+        <div id="multiplierDisplay">Production Rate: x1</div>
+        <button id="incrementButton">Click for Candy!</button>
+        <button id="resetButton" style="display: none;">Reset Game</button>
+
+        <!-- Candy Shop - Scrolling List -->
+        <h2>Candy Shop</h2>
+        <div id="itemsListContainer" class="items-list-container">
+            <!-- Item buttons with quantity indicators will be dynamically added here -->
+        </div>
+
+        <!-- Achievements Section -->
+        <h2>Achievements</h2>
+        <ul id="achievementsList"></ul>
+    </div>
+
+    <script src="src/items.js"></script>
+    <script src="src/achievements.js"></script>
+    <script src="src/game.js"></script>
+</body>
+</html>

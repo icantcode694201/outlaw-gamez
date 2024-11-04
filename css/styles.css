@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #101820;
+    color: #f7a072;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameScreen {
+    background-color: #2d3137;
+    color: #f7e072;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff409f;
+}
+
+#score, #multiplierDisplay {
+    font-size: 26px;
+    color: #b3ff66;
+    margin: 20px 0;
+}
+
+/* Candy Shop List */
+.items-list-container {
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    background-color: #323644;
+    border: 2px solid #f7a072;
+    border-radius: 15px;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.item-button:hover {
+    background-color: #3e8e41;
+}
+
+.item-quantity {
+    font-size: 18px;
+    color: #fff;
+}
+
+.item-button.unselectable {
+    background-color: #888888; /* Gray out unselectable items */
+    color: #cccccc;
+    cursor: not-allowed;
+}
+
+.item-button.unselectable:hover {
+    background-color: #888888;
+}

@@ -31,5 +31,24 @@
     <script src="src/items.js"></script>
     <script src="src/achievements.js"></script>
     <script src="src/game.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBh3vWOI4Me1nMA834hr2E74Kjol_Y1i_E",
+        authDomain: "trudge-davis.firebaseapp.com",
+        projectId: "trudge-davis",
+        storageBucket: "trudge-davis.firebasestorage.app",
+        messagingSenderId: "514808656507",
+        appId: "1:514808656507:web:5ee44f800cf3cc176c68de"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
 </body>
 </html>

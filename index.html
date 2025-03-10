@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microverse Dev Log</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="src/readLog.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Creating Aa: Microverse Dev Log</h1>
+        </header>
+
+        <div class="log-selector">
+            <label for="entryDate">📅 Select Entry:</label>
+            <select id="entryDate" onchange="loadLogEntry()"></select>
+        </div>
+
+        <div class="log-entry">
+            <h2 id="logTitle">Loading...</h2>
+            <pre id="logContent">Loading...</pre>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+/* Body Styling */
+body {
+    background-color: #111; /* Dark Theme */
+    color: #0ff; /* Neon Cyan Text */
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    max-width: 90vw;/* 900px; */
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #0ff;
+}
+
+/* Header */
+header {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Log Selector */
+.log-selector {
+    margin-bottom: 20px;
+}
+
+select {
+    background: #222;
+    color: #0ff;
+    border: 1px solid #0ff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Log Entry Content */
+.log-entry {
+    text-align: left;
+    padding: 15px;
+    background: #222;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0ff;
+    overflow: hidden;
+}
+
+/* Text Styling */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+}
+
+/* Image Styling */
+.log-image {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #0ff;
+}

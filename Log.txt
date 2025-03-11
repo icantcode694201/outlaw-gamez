@@ -15,7 +15,9 @@ I am additionally trying to make this dev log available online.
 ---ENTRY START---
 ID: 2
 Date: 2025-03-11
-Title: Test Entry
-##2##
-Test
+Title: Automatic Log Test
+
+Did some programming to bring the log online! Working on a character today for tests and mechanics development.
+**newcharacter.png
+It turned out as a sort of alien-superhero. I'm cool with it for now and I'll improve it over time. I'll try to implement a controllable camera and give the character some animations. A challenge now will be to manage animations as I create them. I'm attempting to work out of a single blender file for the entire project. That could amount to thousands of animations.
 ---ENTRY END---

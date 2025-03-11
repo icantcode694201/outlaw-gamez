@@ -1,0 +1,21 @@
+---ENTRY START---
+ID: 1
+Date: 2025-03-10
+Title: First Entry
+Today I began logging my progress in developing my own "microverse." This is a term I invented to describe the metaverse-styled platform I would like to build. Personally, I am moving forward in my career as a businessman in the field of video games and other entertainment, and I am attempting to create a sort of multiverse which serves as the setting for any given creative work. This is a truly indie design project, albeit heavily computer aided. Nevertheless, it serves as a challenge which, when complete, could be an endless source of opportunities of all kind.
+The key component to this project is an open-world video game. Playing this game will allow for the user to engage with my business in a fun, thrilling, and memorable way. For example, I would like to sell accessories displaying characters I design, so instead of advertising the accessories, I advertise the game. The customer will organically acquaint themselves with the material and then engage with my business in hopes of getting more of what they already enjoy. In the beginning stages, I will focus on the game itself as the business which will make it salient as an item on its own. 
+In terms of the intended content of the game, it will essentially be a clone of the Grand Theft Auto 3D series; a resurfacing of Shiest City, an idea from a few years ago for a scaled-down version of Chicago based on how I remember it. As the game will be the flagship of my video game company, Outlaw Gamez, I will take great care that the gameplay is on par with AAA games. 
+At this stage, I am focusing on controls and animation. I have imagined the art direction, but graphics and performance are not as important right now. Today, I built a simple room to execute and refine basic gameplay mechanics. I am now working on a character that could move around the room.
+
+**devroom.png
+
+I am additionally trying to make this dev log available online.
+
+---ENTRY END---
+---ENTRY START---
+ID: 2
+Date: 2025-03-11
+Title: Test Entry
+##2##
+Test
+---ENTRY END---
